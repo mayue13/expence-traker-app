@@ -1,5 +1,5 @@
-import Card from "../Card/Card";
-import ExpenseItem from "../ExpenseItemComponent/ExpenseItem";
+import Card from "../../UI/Card/Card";
+import ExpenseItem from "../ExpenseItem/ExpenseItem";
 import './ExpenseItems.css';
 
 function ExpenseItems(props) {
@@ -30,11 +30,5 @@ function ExpenseItems(props) {
     </Card>
   );
 }
-
-// function getExpense(params) {
-//     return(
-//         <ExpenseItem title={params.title} amount={params.amount}  date={params.date} ></ExpenseItem>
-//     );
-// }
 
 export default ExpenseItems;
